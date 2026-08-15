@@ -1,7 +1,0 @@
-{
-  "name": "hospitalitypro",
-  "compatibility_date": "2026-08-01",
-  "assets": {
-    "directory": "./hospitalitypro-vscode-export"
-  }
-}
