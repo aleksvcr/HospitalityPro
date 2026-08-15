@@ -76,8 +76,6 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 .hero-visual > video { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; filter: saturate(1.04) contrast(1.02); transition: transform 1.4s ease; }
 .hero-visual:hover > video { transform: scale(1.015); }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,32,38,.05) 40%, rgba(10,32,38,.67)), linear-gradient(90deg, rgba(10,32,38,.15), transparent 40%); }
-.hero-logo-card { position: absolute; right: 25px; top: 28px; width: 126px; height: 106px; padding: 10px; display: grid; place-items: center; background: rgba(251,248,241,.92); border: 1px solid rgba(255,255,255,.75); box-shadow: 0 14px 35px rgba(10,32,38,.18); backdrop-filter: blur(10px); }
-.hero-logo-card img { width: 100%; height: 100%; object-fit: contain; }
 .hero-caption { position: absolute; left: 0; bottom: 0; min-width: 320px; padding: 23px 28px; display: flex; align-items: center; gap: 15px; background: var(--cream); }
 .hero-caption p { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.55; letter-spacing: .05em; text-transform: uppercase; }
 .hero-caption strong { color: var(--ink); font-size: 11px; }.signal { width: 9px; height: 9px; border-radius: 50%; background: var(--sage); box-shadow: 0 0 0 5px rgba(158,169,149,.19); }
@@ -221,7 +219,7 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
   .site-header { height: 74px; padding: 0 18px; }.brand-logo { width: 185px; }.header-cta { display: none; }
   .hero-copy { min-height: auto; padding: 70px 22px 55px; }.eyebrow { line-height: 1.5; }.hero-lead { font-size: 14px; }.hero-actions { flex-direction: column; align-items: flex-start; gap: 16px; }
   .hero-proof { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; }.hero-proof div { flex-direction: column; align-items: flex-start; gap: 2px; }.hero-proof strong { font-size: 22px; }.hero-proof span { font-size: 6px; }
-  .hero-visual { min-height: 520px; }.hero-caption { min-width: 270px; }.hero-logo-card { width: 102px; height: 86px; right: 16px; top: 18px; }
+  .hero-visual { min-height: 520px; }.hero-caption { min-width: 270px; }
   .service-ribbon { justify-content: flex-start; transform: none; gap: 20px; padding-left: 22px; }
   .section-shell { grid-template-columns: 1fr; }.section-label { padding: 28px 22px 0; border-right: 0; flex-direction: row; }.section-label p { writing-mode: horizontal-tb; margin: 0; }
   .intro-content, .services-content, .about-content { padding: 55px 22px 80px; }
